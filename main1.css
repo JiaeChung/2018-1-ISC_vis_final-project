@@ -1,0 +1,213 @@
+* { font-family: 'Spoqa Han Sans', 'Sans-serif';
+    font-weight: 100; /* thin100 middle400 bold700*/
+ }
+ body.hidden {
+  opacity: 0;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.hover {
+  fill-opacity: 0;
+  stroke-opacity: 0;
+}
+.x.axis .tick line {
+  opacity : .2;
+}
+.y.axis .tick line {
+  opacity : .2;
+}
+.x.axisSecond .domain{
+  stroke : none;
+}
+.point.hidden {
+  fill : #ddd !important;
+}
+.series path {
+  fill : none;
+}
+.series3 path {
+  fill : none;
+}
+
+.series.hidden path {
+  stroke : #ddd !important;
+}
+.x.axisPC .domain{
+  stroke : none;
+}
+
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.tooltipClickLineText {
+  color : black !important;
+  font-weight: 400 !important; /* thin100 middle400 bold700*/
+  text-align : center;
+}
+td, th {
+  padding: 1px 4px;
+  border : 1px silver solid;
+}
+#table-wrapper {
+  display : inline-block;
+  position:relative;
+  margin-bottom : 20px;
+}
+#table-scroll {
+  display : inline-block;
+  max-height:300px;
+  overflow:scroll;
+  margin-top:20px;
+  margin-left:20px;
+}
+#table-wrapper table {
+  display : block;
+}
+#table-wrapper table thead th .text {
+  position:absolute;
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:100%;
+  border:1px solid red;
+}
+.clickTable td  {
+  color: blue;
+  font-weight: 400;
+}
+.x.axisGroup .tick {
+  opacity : 0;
+}
+.filterDiv path {
+  fill : none;
+}
+/* header */
+.top-container {
+  position:relative;
+  text-align:center;
+}
+#title-image {
+  opacity: 0.5;
+}
+#title-text {
+    position:absolute;
+    text-align:center;
+    margin : 10px 10px 10px 10px;
+    padding-bottom : 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* paragraph */ 
+.contents {
+  display : block;
+  width : 60%;
+  margin-top : 50px;
+  margin-bottom : 50px;
+  text-align : left;
+  text-align: justify;
+  font-size : 15px;
+  font-weight: 400px;
+}    
+
+.number {
+  font-size : 7px;
+  font-weight:400;
+}
+.description {
+  display:block;
+  padding: 10px 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 2px #eeeeee;
+}
+.CLT {
+  font-weight: 400; /* thin100 middle400 bold700*/
+}
+
+.filterDiv {
+float: left;
+background-color: #2196F3;
+color: #ffffff;
+width: 100px;
+line-height: 100px;
+text-align: center;
+margin: 2px;
+/* display: none; Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  margin: 3px;
+  border : none;
+  outline: none;
+  padding: 15px 15px 15px 15px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size : 13px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* final project padding */
+#final_project1, #final_project2, #final_project3 {
+  margin-top : 100px;
+  margin-bottom : 50px;
+  margin-left : 50px auto;
+  margin-right : 50px auto;
+}
+
+/* subtitleline */
+.subtitleline { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+/* button */
+.buttonGroup{
+  width : 60%;
+}
+.subButton {
+  display: inline-flex;
+  cursor: pointer;
+  font-size: 5px;
+  /* height: 50px; */
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #000;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+
+}
+
+.legend-g {
+  cursor: pointer;
+}
+
+#reset, #all, #all2 {
+  /* background-color: gray; */
+  font-weight : 700;
+}
